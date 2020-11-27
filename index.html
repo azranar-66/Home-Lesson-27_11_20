@@ -1,12 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Document</title>
+    <style>
+        :root {
+            --img-size: 205px
+        }
+
+        .scale img {
+            transition: 1s;
+            width:100px;
+            filter: grayscale(100%);
+            text-align: center;
+        }
+
+        .scale img:hover {
+            width: var(--img-size);
+            filter:drop-shadow(16px 16px 20px blue) invert(75%);;
+            transform: scale(1.9);
+        }
+
+        .scale {
+            text-align: center;
+        }
+    </style>
 </head>
+
 <body>
-    
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+    <div class="scale"> 
+        <img src="ozero-les.jpg">
+        <img src="ozero-les.jpg">
+        <img src="5.gif">
+        <img src="ozero-les.jpg">
+        <img src="ozero-les.jpg">
+        
+    </div>
+
+
 </body>
+
 </html>
